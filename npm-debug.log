@@ -1,0 +1,104 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'karma-chrome-launcher',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'karma-chrome-launcher', null ]
+6 verbose cache add name=undefined spec="karma-chrome-launcher" args=["karma-chrome-launcher",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'karma-chrome-launcher',
+7 verbose parsed url   path: 'karma-chrome-launcher',
+7 verbose parsed url   href: 'karma-chrome-launcher' }
+8 silly lockFile 4f6bc915-karma-chrome-launcher karma-chrome-launcher
+9 verbose lock karma-chrome-launcher /home/usama/.npm/4f6bc915-karma-chrome-launcher.lock
+10 silly lockFile 4f6bc915-karma-chrome-launcher karma-chrome-launcher
+11 silly lockFile 4f6bc915-karma-chrome-launcher karma-chrome-launcher
+12 verbose addNamed [ 'karma-chrome-launcher', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile cd66acf6-karma-chrome-launcher karma-chrome-launcher@
+15 verbose lock karma-chrome-launcher@ /home/usama/.npm/cd66acf6-karma-chrome-launcher.lock
+16 silly addNameRange { name: 'karma-chrome-launcher', range: '*', hasData: false }
+17 verbose url raw karma-chrome-launcher
+18 verbose url resolving [ 'https://registry.npmjs.org/', './karma-chrome-launcher' ]
+19 verbose url resolved https://registry.npmjs.org/karma-chrome-launcher
+20 info trying registry request attempt 1 at 12:56:41
+21 http GET https://registry.npmjs.org/karma-chrome-launcher
+22 http 200 https://registry.npmjs.org/karma-chrome-launcher
+23 silly registry.get cb [ 200,
+23 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly registry.get     etag: '"6LI2GF535W1VGGKDCK4Y0DTG1"',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'cache-control': 'max-age=300',
+23 silly registry.get     'content-length': '35955',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     date: 'Sun, 13 Mar 2016 07:56:43 GMT',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '0',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'x-served-by': 'cache-ams4148-AMS',
+23 silly registry.get     'x-cache': 'HIT',
+23 silly registry.get     'x-cache-hits': '1',
+23 silly registry.get     'x-timer': 'S1457855802.966056,VS0,VE183',
+23 silly registry.get     vary: 'Accept' } ]
+24 silly addNameRange number 2 { name: 'karma-chrome-launcher', range: '*', hasData: true }
+25 silly addNameRange versions [ 'karma-chrome-launcher',
+25 silly addNameRange   [ '0.0.1',
+25 silly addNameRange     '0.0.2',
+25 silly addNameRange     '0.1.0',
+25 silly addNameRange     '0.1.1',
+25 silly addNameRange     '0.1.2',
+25 silly addNameRange     '0.1.3',
+25 silly addNameRange     '0.1.4',
+25 silly addNameRange     '0.1.5',
+25 silly addNameRange     '0.1.6',
+25 silly addNameRange     '0.1.7',
+25 silly addNameRange     '0.1.8',
+25 silly addNameRange     '0.1.9',
+25 silly addNameRange     '0.1.10',
+25 silly addNameRange     '0.1.11',
+25 silly addNameRange     '0.1.12',
+25 silly addNameRange     '0.2.0',
+25 silly addNameRange     '0.2.1',
+25 silly addNameRange     '0.2.2' ] ]
+26 verbose addNamed [ 'karma-chrome-launcher', '0.2.2' ]
+27 verbose addNamed [ '0.2.2', '0.2.2' ]
+28 silly lockFile 2032025c-karma-chrome-launcher-0-2-2 karma-chrome-launcher@0.2.2
+29 verbose lock karma-chrome-launcher@0.2.2 /home/usama/.npm/2032025c-karma-chrome-launcher-0-2-2.lock
+30 silly lockFile 374f2274--karma-chrome-launcher-0-2-2-tgz https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.2.2.tgz
+31 verbose lock https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.2.2.tgz /home/usama/.npm/374f2274--karma-chrome-launcher-0-2-2-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.2.2.tgz',
+32 verbose addRemoteTarball   '38c3e49af5a43ea1cd691b110a03ba6dd66b4c2e' ]
+33 silly lockFile 374f2274--karma-chrome-launcher-0-2-2-tgz https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.2.2.tgz
+34 silly lockFile 374f2274--karma-chrome-launcher-0-2-2-tgz https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.2.2.tgz
+35 silly lockFile 2032025c-karma-chrome-launcher-0-2-2 karma-chrome-launcher@0.2.2
+36 silly lockFile 2032025c-karma-chrome-launcher-0-2-2 karma-chrome-launcher@0.2.2
+37 silly lockFile cd66acf6-karma-chrome-launcher karma-chrome-launcher@
+38 silly lockFile cd66acf6-karma-chrome-launcher karma-chrome-launcher@
+39 error Error: EACCES, mkdir '/home/usama/tmp/npm-16141-748qIKAl'
+39 error  { [Error: EACCES, mkdir '/home/usama/tmp/npm-16141-748qIKAl']
+39 error   errno: 3,
+39 error   code: 'EACCES',
+39 error   path: '/home/usama/tmp/npm-16141-748qIKAl' }
+40 error Please try running this command again as root/Administrator.
+41 error System Linux 3.16.0-30-generic
+42 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "karma-chrome-launcher" "--save-dev"
+43 error cwd /home/usama/Desktop/20/myProject
+44 error node -v v0.10.25
+45 error npm -v 1.3.10
+46 error path /home/usama/tmp/npm-16141-748qIKAl
+47 error code EACCES
+48 error errno 3
+49 error stack Error: EACCES, mkdir '/home/usama/tmp/npm-16141-748qIKAl'
+50 verbose exit [ 3, true ]

@@ -25,6 +25,7 @@ angular.module('myProjectApp')
     $scope.from ='AUD';
     $scope.to ='USD';
 
+
     //
     $scope.getForeignExchangeData = function()
       {   
@@ -33,6 +34,7 @@ angular.module('myProjectApp')
                 {     
                   fx.rates =data;  
                   $scope.convertedValue = fx($scope.amount).from($scope.from).to($scope.to); 
+                     
                 },
                 function(errorMessage)
                 {
